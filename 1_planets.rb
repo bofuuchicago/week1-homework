@@ -1,4 +1,9 @@
 planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Saturn', 'Jupiter', 'Uranus', 'Neptune']
+i = 0
+planets.each do |plant|
+	i = i + 1
+	puts "Planet #{i}: #{plant}"
+end
 
 # 1. TO DO:
 #
